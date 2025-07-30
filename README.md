@@ -8,3 +8,11 @@ Mainly focus on following themes:
  - 🤗 Transformers
  - Kaggle competitions
  - Deep Learning Courses
+
+ # Start running Notebooks
+
+ you need uv to install the dependencies and run the notebooks: https://docs.astral.sh/uv/getting-started/installation/
+
+ ```bash
+ uv sync
+ ```
