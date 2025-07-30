@@ -19,8 +19,8 @@ Mainly focus on following themes:
  uv sync
  ```
 
-## what's latest 10 new 🔥
- - llm-course/1_1_what_transformers_can_do.ipynb
+## What's latest 10 new 🔥
+ - [llm-course/1_1_what_transformers_can_do.ipynb](llm-course/1_1_what_transformers_can_do.ipynb)
 
 ## Interesting for later 🤔
  - ffmpeg (A library for audio and video processing)
