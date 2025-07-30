@@ -13,6 +13,8 @@ Mainly focus on following themes:
 
  you need uv to install the dependencies and run the notebooks: https://docs.astral.sh/uv/getting-started/installation/
 
+ After Installation run:
+
  ```bash
  uv sync
  ```
