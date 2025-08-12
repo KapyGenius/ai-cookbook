@@ -1,4 +1,5 @@
 import chainlit as cl
+from langchain_openai import ChatOpenAI
 
 
 @cl.on_message
