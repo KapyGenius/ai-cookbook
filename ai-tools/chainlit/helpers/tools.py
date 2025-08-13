@@ -2,8 +2,10 @@ from langchain_tavily import TavilySearch
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode
 from langchain_core.tools import tool
 import json
+import chainlit as cl
 
 @tool
+@cl.step(type="tool")
 async def find_info_on_fhswf_website(query: str) -> str:
     """Find information on the FH Südwestfalen website."""
     print(f"Searching for: FH swf {query} - on the FH Südwestfalen website")
