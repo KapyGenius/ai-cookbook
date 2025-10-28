@@ -22,9 +22,9 @@ async def on_chat_start():
 @cl.on_message
 async def main(message: cl.Message):
     agent_langgraph = cast(Runnable, cl.user_session.get("agent_langgraph"))
-    langgraph_step = 1
+    langgraph_step = 0
     msg_uis = []
-    
+
     async for msg, metadata  in agent_langgraph.astream(
         {"messages": [HumanMessage(message.content)]},
         stream_mode="messages",

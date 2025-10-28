@@ -12,7 +12,7 @@ async def find_info_on_fhswf_website(query: str) -> str:
 
     # Search for the query on the FH Südwestfalen website
     tool = TavilySearch(
-        max_results=1,
+        max_results=3,
         include_domains=["fh-swf.de"],
     )
     results = tool.invoke({"query": "FH swf " + query})
