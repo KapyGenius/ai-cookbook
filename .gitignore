@@ -4,3 +4,4 @@ wandb/
 .env
 .DS_Store
 __pycache__
+llm-usecase/test
